@@ -1,18 +1,20 @@
+<!--
+created with help from:
+https://howtodoinjava.com/junit-5/junit-5-maven-dependency-pom-xml-example/
+-->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.richardpoulson.java.test</groupId>
+  <groupId>com.richardpoulson.test</groupId>
   <artifactId>example</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
 
   <name>example</name>
   <url>http://maven.apache.org</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <!-- per https://github.com/junit-team/junit5-samples/blob/r5.2.0/junit5-jupiter-starter-maven/pom.xml -->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>    <!-- per https://github.com/junit-team/junit5-samples/blob/r5.2.0/junit5-jupiter-starter-maven/pom.xml -->
     <java.version>1.8</java.version>
     <junit.jupiter.version>5.0.0-M4</junit.jupiter.version>
     <junit.platform.version>1.0.0-M4</junit.platform.version>
