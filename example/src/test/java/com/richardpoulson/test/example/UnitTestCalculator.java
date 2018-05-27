@@ -18,7 +18,7 @@ public class UnitTestCalculator {
 	Calculator clone = calc.clone();
 	
 	@Test
-	public void Addition() {
+	public void Add() {
 		// both positive numbers
 		assertEquals(calc.Add(3, 4), 7);
 		// both negative numbers
@@ -38,7 +38,7 @@ public class UnitTestCalculator {
 	}
 	
 	@Test
-	public void Subtraction() {
+	public void Subtract() {
 		// both positive numbers
 		assertEquals(calc.Subtract(3, 4), -1);
 		// both negative numbers

@@ -1,7 +1,7 @@
 package com.richardpoulson.test.example;
 
 /**
- * Calculator is a concrete class that implements the ArithmeticFunctions and
+ * A concrete class that implements the ArithmeticFunctions and
  * TrigometricFunctions interfaces.
  * 
  * @author		Richard Poulson
@@ -15,8 +15,7 @@ class Calculator implements ArithmeticFunctions, TrigometricFunctions, Cloneable
 	
 	/**
 	 * Constructor for Calculator.
-	 * 
-	 * @param owner the name of the owner of the calculator.
+	 * @param owner The name of the owner of the calculator.
 	 * @since 1.0
 	 */
 	Calculator(String owner) {
@@ -24,20 +23,18 @@ class Calculator implements ArithmeticFunctions, TrigometricFunctions, Cloneable
 	}
 	
 	/**
-	 * setter for setting the name of the calculator's owner.
-	 * 
-	 *  @param newOwner the name of the new owner of the calculator.
-	 *  @since 1.0
+	 * setter for member variable "owner".
+	 * @param newOwner The new owner of the calculator.
+	 * @since 1.0
 	 */
 	public void setOwner(String newOwner) {
 		this.owner = newOwner;
 	}
 	
 	/**
-	 * getter for the Calculator's owner.
-	 * 
-	 *  @return the name of the owner of the Calculator.
-	 *  @since 1.0
+	 * getter for member variable "owner".
+	 * @return The name of the owner of the Calculator.
+	 * @since 1.0
 	 */
 	public String getOwner() {
 		return this.owner;
@@ -107,6 +104,4 @@ class Calculator implements ArithmeticFunctions, TrigometricFunctions, Cloneable
 		// TODO Auto-generated method stub
 		return 0;
 	}
-
-	
 }
